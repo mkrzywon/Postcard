@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Postcard</string>
+    <string name="invitation">Find your inspiration</string>
+    <string name="greetings">Greetings from Poland</string>
+    <string name="content1">warsaw1</string>
+    <string name="content2">warsaw2</string>
+    <string name="content">cracow</string>
+</resources>

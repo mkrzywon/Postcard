@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBackground"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/krakow"
+            android:src="@drawable/krakow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitEnd"
+            android:contentDescription="@string/content" />
+
+        <ImageView
+            android:id="@+id/warsaw2"
+            android:src="@drawable/warsaw2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/content2" />
+
+        <ImageView
+            android:id="@+id/warsaw1"
+            android:src="@drawable/warsaw1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/content1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/invitation"
+        android:text="@string/invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/architex"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorslogan2"
+        android:layout_margin="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/greetings"
+        android:text="@string/greetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architex"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorslogan2"
+        android:paddingBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
